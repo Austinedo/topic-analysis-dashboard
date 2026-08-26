@@ -1,0 +1,76 @@
+[server]
+enableStaticServing = true
+
+[client]
+showSidebarNavigation = false
+
+[[theme.fontFaces]]
+family = "Space Grotesk"
+url = "app/static/SpaceGrotesk-VariableFont_wght.ttf"
+style = "normal"
+weight = "300 700"
+
+[[theme.fontFaces]]
+family = "Space Mono"
+url = "app/static/SpaceMono-Regular.ttf"
+style = "normal"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Space Mono"
+url = "app/static/SpaceMono-Italic.ttf"
+style = "italic"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Space Mono"
+url = "app/static/SpaceMono-Bold.ttf"
+style = "normal"
+weight = 700
+
+[[theme.fontFaces]]
+family = "Space Mono"
+url = "app/static/SpaceMono-BoldItalic.ttf"
+style = "italic"
+weight = 700
+
+[theme]
+base = "dark"
+font = "Space Grotesk"
+headingFont = "Space Grotesk"
+codeFont = "Space Mono"
+
+baseFontSize = 16
+baseFontWeight = 400
+headingFontWeights = [700, 650, 600, 600, 600, 600]
+showSidebarBorder = true
+
+[theme.light]
+primaryColor = "#2F6F9F"
+backgroundColor = "#F6F8FB"
+secondaryBackgroundColor = "#EAF0F6"
+textColor = "#1F2937"
+linkColor = "#245A82"
+codeBackgroundColor = "#EAF0F6"
+borderColor = "#D3DEE9"
+
+[theme.light.sidebar]
+backgroundColor = "#EEF3F8"
+secondaryBackgroundColor = "#E1EAF3"
+textColor = "#1F2937"
+borderColor = "#C9D7E5"
+
+[theme.dark]
+primaryColor = "#7DB7E8"
+backgroundColor = "#101922"
+secondaryBackgroundColor = "#192634"
+textColor = "#EDF4FA"
+linkColor = "#9DCCF2"
+codeBackgroundColor = "#192634"
+borderColor = "#2B3E50"
+
+[theme.dark.sidebar]
+backgroundColor = "#14202C"
+secondaryBackgroundColor = "#1C2B39"
+textColor = "#EDF4FA"
+borderColor = "#2D4255"

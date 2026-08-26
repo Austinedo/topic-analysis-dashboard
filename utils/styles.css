@@ -1,0 +1,10 @@
+/* Keep blockquotes matched to primary text color across light/dark modes */
+blockquote, blockquote p {
+    color: var(--text-color) !important;
+    opacity: 0.95 !important;
+}
+
+/* Keep nested list text matched to primary text color across light/dark modes */
+ul ul, ol ol, ul ol, ol ul {
+    color: var(--text-color) !important;
+}

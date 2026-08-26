@@ -1,0 +1,9 @@
+> K-Means clustering on a TF-IDF document-term matrix provides a simple baseline for topic discovery in text data. In this approach, each review is represented as a high-dimensional sparse vector whose entries encode the importance of individual terms relative to both the document and the overall corpus (Term Frquency-Inverse Document Frequency). This representation emphasizes distinctive words and phrases that characterize different types of reviews, making it well-suited for grouping documents by lexical similarity. 
+>
+> Using TF-IDF features with K-Means also aligns with classical information retrieval and text mining practice, where bag-of-words models remain effective for capturing *broad topical structure despite* their simplicity. The algorithm partitions reviews into clusters based on distance in the TF-IDF space, and each cluster can then be interpreted by examining the most heavily weighted terms. This combination of a straightforward clustering objective and transparent feature space makes it a useful starting point for topic modeling, against which more complex semantic and probabilistic methods (such as SBERT-based clustering and LDA) can be compared, but it will prove to be an incorrect assumption about the underlying topical structure in review text and as a result produce topical clustering that is difficult to interpret.
+
+#### < Why this approach? >
+
+>TF-IDF + K-Means is a fast, transparent baseline for exploring large collections of review text. It makes the relationship between the text and each cluster easy to inspect, potentially revealing common complaint keyword patterns.
+>
+>Because customers may describe the same issue with different language—or discuss several issues in one review—this approach is best viewed as a starting point. Later methods can capture deeper semantic similarity and overlapping topics.
